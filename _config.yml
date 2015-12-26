@@ -1,0 +1,12 @@
+# Site settings
+title: Nano Foundation
+email: 	
+description: "Nano Foundation is a foundation works on computer operating system called 'Nano'. "
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: 
+github_username:  
+
+# Build settings
+markdown: kramdown
+permalink: pretty
