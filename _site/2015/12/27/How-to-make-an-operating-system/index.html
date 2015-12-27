@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>How to make an operating system</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Nano Foundation founded in 2015, as a computer science and research foundation. We are currently working on a 32-bit operating system, called 'NanOS'.">
+    <link rel="canonical" href="http://yourdomain.com/2015/12/27/How-to-make-an-operating-system/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+
+
+    <body>
+
+    <header class="site-header">
+
+  <div class="wrap">
+
+    <a class="site-title" href="/">Nano Foundation</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+          <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+            h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+            h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+            c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+      <div class="trigger">
+        
+          <a class="page-link" href="/about/">About</a>
+        
+          
+        
+          
+        
+          <a class="page-link" href="/posts/">Posts</a>
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>How to make an operating system</h1>
+    <p class="meta">Dec 27, 2015</p>
+  </header>
+
+  <article class="post-content">
+  <p>A lot of computer scientists or engineers wish they could write their own operating system and have such interesting experience, but a lot of them choose wrong ways to do that. In this article, we count some wrong ways, then we tell you what’s the right way!</p>
+
+<h2 id="wrong-ways">Wrong ways</h2>
+<ul>
+  <li><strong>Making a Linux distribution</strong> :</li>
+</ul>
+
+<p>This is what people do more than other ways, if you take a look at <a href="http://distrowatch.com">DistroWatch</a>, you’ll find more than 1000 Linux distributions. Creating a Linux distribution is good, but when we want a working operating system with tools we need (e.g Kali Linux). Also, creating a distribution from scratch using <a href="http://linuxfromscratch.org">LFS</a> can show you how a Linux system is built, but it doesn’t show you how an <em>operating system</em> works.</p>
+
+<ul>
+  <li><strong>Making builds of existing operating systems</strong> :</li>
+</ul>
+
+<p>This way is rare, but people do this to. This is just like making a Linux distribution, you never learn how that operating system works, you only learn how to build, and how to hack the existing operating system. Building <a href="http://freebsd.org">FreeBSD</a> is cool and easy. Also, you can hack it every time you like, but it doesn’t mean you understand what happens behind this operating system.</p>
+
+<ul>
+  <li><strong>Thinking all operating system shall have GUI</strong> :</li>
+</ul>
+
+<p>This is the most <strong>dangerous</strong> thought about an operating system. <em>Microsoft Windows</em> or <em>Ubuntu</em> or  <em>Apple OS X</em> are most usual operating systems. All of them contain GUI, but if you read their history, you’ll find all of them started with CLI (<em>Command Line Interface</em>), then the graphical interface added to them. Currently a lot of <em>*nix</em> operating systems like <strong>FreeBSD</strong> doesn’t contain GUI by default. So, you don’t need to think about GUI.</p>
+
+<h2 id="right-ways">Right ways</h2>
+<ul>
+  <li><strong>Reading operating system references</strong> :</li>
+</ul>
+
+<p>This is the most important way in creating an operating system. Reading books, websites and other documents and references can help you find <em>what an operating system is</em> and <em>how it works</em>. Websites like <a href="http://osdev.org">OSDev</a> are the best references, because they’re free, and have a good support on their forums and IRC channels.</p>
+
+<ul>
+  <li><strong>Learning useful programming languages</strong> :</li>
+</ul>
+
+<p>A <strong>useful</strong> language in this case is <em>the most suitable language for low-level programming</em>. The most common languages in operating system development are <strong>C</strong> , <strong>Assembly</strong>, sometimes <strong>Go</strong>, and also in rare cases languages like <strong>Rust</strong> or <strong>Java</strong>.</p>
+
+<ul>
+  <li><strong>Studying other projects</strong> :</li>
+</ul>
+
+<p>There are thousands of projects done before you. You need to believe this! You can start with simple operating system projects like <a href="https://github.com/prp-e/BYOOS">BYOOS</a> , <a href="https://github.com/prp-e/my16bitkernel">my16bitkernel</a> and <a href="http://mikeos.sourceforge.net">MikeOS</a>. These projects are written in pure assembly, and you can learn assembly by studying source codes of these projects. Then you need to study more complex projects like <a href="https://github.com/nano-foundation/NanOS">NanOS</a> , to learn more. After studying these projects, you can join one of them and help them improve their projects, or you can fork them and do what you want. After hacking and creating simple projects, you can start studying bigger projects like <a href="http://minix3.org">Minix3</a>.</p>
+
+<h2 id="find-your-way">Find your way</h2>
+<p>Now, you know where to start, we hope we could help you, and we hope you’ll find your way after reading this article.</p>
+
+
+  </article>
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrap">
+
+    <h2 class="footer-heading">Nano Foundation</h2>
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>Nano Foundation</li>
+        <li><a href="mailto:"></a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col-2 column">
+      <ul>
+        <li>
+          <a href="https://github.com/nano-foundation">
+            <span class="icon github">
+              <svg version="1.1" class="github-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="#C2C2C2" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761
+                c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32
+                c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472
+                c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037
+                C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65
+                c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261
+                c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082
+                c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129
+                c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+              </svg>
+            </span>
+            <span class="username">nano-foundation</span>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text">Nano Foundation founded in 2015, as a computer science and research foundation. We are currently working on a 32-bit operating system, called 'NanOS'.</p>
+    </div>
+
+  </div>
+
+</footer>
+
+
+    </body>
+</html>

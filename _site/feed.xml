@@ -5,9 +5,62 @@
     <description>Nano Foundation founded in 2015, as a computer science and research foundation. We are currently working on a 32-bit operating system, called &#39;NanOS&#39;.</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 27 Dec 2015 02:07:25 +0330</pubDate>
-    <lastBuildDate>Sun, 27 Dec 2015 02:07:25 +0330</lastBuildDate>
+    <pubDate>Sun, 27 Dec 2015 14:42:23 +0330</pubDate>
+    <lastBuildDate>Sun, 27 Dec 2015 14:42:23 +0330</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>How to make an operating system</title>
+        <description>&lt;p&gt;A lot of computer scientists or engineers wish they could write their own operating system and have such interesting experience, but a lot of them choose wrong ways to do that. In this article, we count some wrong ways, then we tell you what’s the right way!&lt;/p&gt;
+
+&lt;h2 id=&quot;wrong-ways&quot;&gt;Wrong ways&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Making a Linux distribution&lt;/strong&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is what people do more than other ways, if you take a look at &lt;a href=&quot;http://distrowatch.com&quot;&gt;DistroWatch&lt;/a&gt;, you’ll find more than 1000 Linux distributions. Creating a Linux distribution is good, but when we want a working operating system with tools we need (e.g Kali Linux). Also, creating a distribution from scratch using &lt;a href=&quot;http://linuxfromscratch.org&quot;&gt;LFS&lt;/a&gt; can show you how a Linux system is built, but it doesn’t show you how an &lt;em&gt;operating system&lt;/em&gt; works.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Making builds of existing operating systems&lt;/strong&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This way is rare, but people do this to. This is just like making a Linux distribution, you never learn how that operating system works, you only learn how to build, and how to hack the existing operating system. Building &lt;a href=&quot;http://freebsd.org&quot;&gt;FreeBSD&lt;/a&gt; is cool and easy. Also, you can hack it every time you like, but it doesn’t mean you understand what happens behind this operating system.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Thinking all operating system shall have GUI&lt;/strong&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the most &lt;strong&gt;dangerous&lt;/strong&gt; thought about an operating system. &lt;em&gt;Microsoft Windows&lt;/em&gt; or &lt;em&gt;Ubuntu&lt;/em&gt; or  &lt;em&gt;Apple OS X&lt;/em&gt; are most usual operating systems. All of them contain GUI, but if you read their history, you’ll find all of them started with CLI (&lt;em&gt;Command Line Interface&lt;/em&gt;), then the graphical interface added to them. Currently a lot of &lt;em&gt;*nix&lt;/em&gt; operating systems like &lt;strong&gt;FreeBSD&lt;/strong&gt; doesn’t contain GUI by default. So, you don’t need to think about GUI.&lt;/p&gt;
+
+&lt;h2 id=&quot;right-ways&quot;&gt;Right ways&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Reading operating system references&lt;/strong&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the most important way in creating an operating system. Reading books, websites and other documents and references can help you find &lt;em&gt;what an operating system is&lt;/em&gt; and &lt;em&gt;how it works&lt;/em&gt;. Websites like &lt;a href=&quot;http://osdev.org&quot;&gt;OSDev&lt;/a&gt; are the best references, because they’re free, and have a good support on their forums and IRC channels.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Learning useful programming languages&lt;/strong&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A &lt;strong&gt;useful&lt;/strong&gt; language in this case is &lt;em&gt;the most suitable language for low-level programming&lt;/em&gt;. The most common languages in operating system development are &lt;strong&gt;C&lt;/strong&gt; , &lt;strong&gt;Assembly&lt;/strong&gt;, sometimes &lt;strong&gt;Go&lt;/strong&gt;, and also in rare cases languages like &lt;strong&gt;Rust&lt;/strong&gt; or &lt;strong&gt;Java&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Studying other projects&lt;/strong&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are thousands of projects done before you. You need to believe this! You can start with simple operating system projects like &lt;a href=&quot;https://github.com/prp-e/BYOOS&quot;&gt;BYOOS&lt;/a&gt; , &lt;a href=&quot;https://github.com/prp-e/my16bitkernel&quot;&gt;my16bitkernel&lt;/a&gt; and &lt;a href=&quot;http://mikeos.sourceforge.net&quot;&gt;MikeOS&lt;/a&gt;. These projects are written in pure assembly, and you can learn assembly by studying source codes of these projects. Then you need to study more complex projects like &lt;a href=&quot;https://github.com/nano-foundation/NanOS&quot;&gt;NanOS&lt;/a&gt; , to learn more. After studying these projects, you can join one of them and help them improve their projects, or you can fork them and do what you want. After hacking and creating simple projects, you can start studying bigger projects like &lt;a href=&quot;http://minix3.org&quot;&gt;Minix3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;find-your-way&quot;&gt;Find your way&lt;/h2&gt;
+&lt;p&gt;Now, you know where to start, we hope we could help you, and we hope you’ll find your way after reading this article.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 27 Dec 2015 00:00:00 +0330</pubDate>
+        <link>http://yourdomain.com/2015/12/27/How-to-make-an-operating-system/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/12/27/How-to-make-an-operating-system/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hello, World!</title>
