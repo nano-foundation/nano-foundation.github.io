@@ -5,7 +5,7 @@ description: "Nano Foundation founded in 2015, as a computer science and researc
 baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: 
-github_username:  
+github_username: nano-foundation
 
 # Build settings
 markdown: kramdown

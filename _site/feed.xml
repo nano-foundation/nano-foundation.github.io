@@ -3,11 +3,32 @@
   <channel>
     <title>Nano Foundation</title>
     <description>Nano Foundation founded in 2015, as a computer science and research foundation. We are currently working on a 32-bit operating system, called &#39;NanOS&#39;.</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 27 Dec 2015 19:27:41 +0330</pubDate>
-    <lastBuildDate>Sun, 27 Dec 2015 19:27:41 +0330</lastBuildDate>
+    <link>http://nano-foundation.github.io/</link>
+    <atom:link href="http://nano-foundation.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 28 Dec 2015 18:34:41 +0330</pubDate>
+    <lastBuildDate>Mon, 28 Dec 2015 18:34:41 +0330</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>First test on real hardware</title>
+        <description>&lt;p align=&quot;center&quot;&gt;
+![Tested on Lenovo G510](http://nano-foundation.github.io/assets/real-hardware.jpg)
+&lt;/p&gt;
+
+&lt;p&gt;This is the firs time we tested &lt;a href=&quot;https://github.com/nano-foundation/NanOS&quot;&gt;NanOS&lt;/a&gt; on real hardware. Operating system booted using a USB flash drive. The test device was a &lt;strong&gt;Lenovo G510&lt;/strong&gt; laptop. If you want to test this operating system on your real device, just do these steps:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+   sudo dd if=NanOS.iso of=/dev/sdX
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, plug drive and then reboot your system.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Dec 2015 00:00:00 +0330</pubDate>
+        <link>http://nano-foundation.github.io/2015/12/28/First-test-on-real-hardware/</link>
+        <guid isPermaLink="true">http://nano-foundation.github.io/2015/12/28/First-test-on-real-hardware/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to make an operating system</title>
@@ -56,8 +77,8 @@
 
 </description>
         <pubDate>Sun, 27 Dec 2015 00:00:00 +0330</pubDate>
-        <link>http://yourdomain.com/2015/12/27/How-to-make-an-operating-system/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/12/27/How-to-make-an-operating-system/</guid>
+        <link>http://nano-foundation.github.io/2015/12/27/How-to-make-an-operating-system/</link>
+        <guid isPermaLink="true">http://nano-foundation.github.io/2015/12/27/How-to-make-an-operating-system/</guid>
         
         
       </item>
@@ -69,8 +90,8 @@
 &lt;p&gt;&lt;strong&gt;Nano Foundation&lt;/strong&gt; founded as a research foundation, and we do research on operating systems. Operating systems are the most important part of a working computer. You may ask why? Because an operating system lets user use hardware, and also run other software. An operating system can control one or more computer, and so on. We started development of a simple and fast operating system called &lt;strong&gt;&lt;a href=&quot;https://github.com/nano-foundation/NanOS&quot;&gt;NanOS&lt;/a&gt;&lt;/strong&gt; in 2015, as a fun project, but later we decided to make it a complete and usable operating system.&lt;/p&gt;
 </description>
         <pubDate>Sun, 27 Dec 2015 00:00:00 +0330</pubDate>
-        <link>http://yourdomain.com/2015/12/27/Hello-World!/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/12/27/Hello-World!/</guid>
+        <link>http://nano-foundation.github.io/2015/12/27/Hello-World!/</link>
+        <guid isPermaLink="true">http://nano-foundation.github.io/2015/12/27/Hello-World!/</guid>
         
         
       </item>
