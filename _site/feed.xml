@@ -5,14 +5,14 @@
     <description>Nano Foundation founded in 2015, as a computer science and research foundation. We are currently working on a 32-bit operating system, called &#39;NanOS&#39;.</description>
     <link>http://nano-foundation.github.io/</link>
     <atom:link href="http://nano-foundation.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 28 Dec 2015 18:34:41 +0330</pubDate>
-    <lastBuildDate>Mon, 28 Dec 2015 18:34:41 +0330</lastBuildDate>
+    <pubDate>Mon, 28 Dec 2015 18:37:38 +0330</pubDate>
+    <lastBuildDate>Mon, 28 Dec 2015 18:37:38 +0330</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
         <title>First test on real hardware</title>
         <description>&lt;p align=&quot;center&quot;&gt;
-![Tested on Lenovo G510](http://nano-foundation.github.io/assets/real-hardware.jpg)
+&lt;img src=&quot;http://nano-foundation.github.io/assets/real-hardware.jpg&quot; width=&quot;640&quot; height=&quot;480&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;This is the firs time we tested &lt;a href=&quot;https://github.com/nano-foundation/NanOS&quot;&gt;NanOS&lt;/a&gt; on real hardware. Operating system booted using a USB flash drive. The test device was a &lt;strong&gt;Lenovo G510&lt;/strong&gt; laptop. If you want to test this operating system on your real device, just do these steps:&lt;/p&gt;
