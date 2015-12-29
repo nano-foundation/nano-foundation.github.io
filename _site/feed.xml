@@ -5,9 +5,48 @@
     <description>Nano Foundation founded in 2015, as a computer science and research foundation. We are currently working on a 32-bit operating system, called &#39;NanOS&#39;.</description>
     <link>http://nano-foundation.github.io/</link>
     <atom:link href="http://nano-foundation.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 28 Dec 2015 18:37:38 +0330</pubDate>
-    <lastBuildDate>Mon, 28 Dec 2015 18:37:38 +0330</lastBuildDate>
+    <pubDate>Wed, 30 Dec 2015 00:49:05 +0330</pubDate>
+    <lastBuildDate>Wed, 30 Dec 2015 00:49:05 +0330</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>The new NanOS is under development</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;https://github.com/nano-foundation/NanOS-old&quot;&gt;previous code&lt;/a&gt;’s development has been stopped, and now, &lt;em&gt;NanOS&lt;/em&gt; is being written from scratch. The new one includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;IDT &amp;amp; GDT&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Full keyboard support&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Memory management&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A very basic shell&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And what to be included later:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lisp interpreter&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Filesystem support&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More news will be available as soon as possible.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 Dec 2015 00:00:00 +0330</pubDate>
+        <link>http://nano-foundation.github.io/2015/12/30/The-new-NanOS-is-under-development/</link>
+        <guid isPermaLink="true">http://nano-foundation.github.io/2015/12/30/The-new-NanOS-is-under-development/</guid>
+        
+        
+      </item>
     
       <item>
         <title>First test on real hardware</title>
