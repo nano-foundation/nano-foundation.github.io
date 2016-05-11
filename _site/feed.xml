@@ -5,9 +5,24 @@
     <description>Nano Foundation founded in 2015, as a computer science and research foundation. We are currently working on a 32-bit operating system, called &#39;NanOS&#39;.</description>
     <link>http://nano-foundation.github.io/</link>
     <atom:link href="http://nano-foundation.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 30 Dec 2015 00:49:05 +0330</pubDate>
-    <lastBuildDate>Wed, 30 Dec 2015 00:49:05 +0330</lastBuildDate>
-    <generator>Jekyll v2.2.0</generator>
+    <pubDate>Wed, 11 May 2016 17:49:17 +0430</pubDate>
+    <lastBuildDate>Wed, 11 May 2016 17:49:17 +0430</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Nano foundation and JabirTech merged</title>
+        <description>&lt;p&gt;Greetings. It’s time to tell all people who followed us in this period, that Nano Foundation is going to be merged with &lt;a href=&quot;http://jabirproject.org&quot;&gt;Jabir Project&lt;/a&gt;, because we’ve launched a 32 bit operating system project at &lt;strong&gt;Jabir Project&lt;/strong&gt; and now we want to work together.&lt;/p&gt;
+
+&lt;p&gt;Regards.&lt;/p&gt;
+
+&lt;p&gt;Muhammadreza Haghiri.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 May 2016 00:00:00 +0430</pubDate>
+        <link>http://nano-foundation.github.io/2016/05/11/Nano-foundation-and-JabirTech-merged/</link>
+        <guid isPermaLink="true">http://nano-foundation.github.io/2016/05/11/Nano-foundation-and-JabirTech-merged/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The new NanOS is under development</title>
@@ -56,7 +71,7 @@
 
 &lt;p&gt;This is the firs time we tested &lt;a href=&quot;https://github.com/nano-foundation/NanOS&quot;&gt;NanOS&lt;/a&gt; on real hardware. Operating system booted using a USB flash drive. The test device was a &lt;strong&gt;Lenovo G510&lt;/strong&gt; laptop. If you want to test this operating system on your real device, just do these steps:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;
    sudo dd if=NanOS.iso of=/dev/sdX
 &lt;/code&gt;&lt;/p&gt;
 
